@@ -1,23 +1,23 @@
-Summary:	Trigger launcher
-Summary(pl):	Trigger launcher
+Summary:	Trigger launcher - a launcher with two states
+Summary(pl):	Trigger launcher - dwustanowy prze³±cznik
 Name:		xfce4-trigger-launcher
 Version:	3.99.2
 Release:	1
-License:	GPL
+License:	BSD
 Group:		X11/Applications
 Source0:	http://linux.imp.mx/xfce4/rc2/xfce4-rc2/src/%{name}-%{version}.tar.gz
 # Source0-md5:	750f1b959eb6f6d30831507d5a7c4da4
 URL:		http://www.xfce.org/
 BuildRequires:	pkgconfig >= 0.9.0
-BuildRequires:	xfce4-panel >= 3.99.2
-Requires:	xfce4-panel-devel >= 3.99.2
+BuildRequires:	xfce4-panel-devel >= 3.99.2
+Requires:	xfce4-panel >= 3.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Trigger launcher
+Trigger launcher - a launcher with two states.
 
 %description -l pl
-Trigger launcher
+Trigger launcher - dwustanowy prze³±cznik.
 
 %prep
 %setup -q
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc README
+%doc AUTHORS COPYING ChangeLog README
 %attr(755,root,root) %{_libdir}/xfce4/panel-plugins/*.so
