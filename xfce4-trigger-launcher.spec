@@ -1,12 +1,12 @@
 Summary:	Trigger launcher - a launcher with two states
 Summary(pl):	Trigger launcher - dwustanowy prze³±cznik
 Name:		xfce4-trigger-launcher
-Version:	4.0.3
+Version:	4.0.4
 Release:	1
 License:	BSD
 Group:		X11/Applications
 Source0:	http://www.xfce.org/archive/xfce-%{version}/src/%{name}-%{version}.tar.gz
-# Source0-md5:	fac20eb491536c9ea042cc651db07180
+# Source0-md5:	104e1c6abfcc30a036673c15f66b2d03
 URL:		http://www.xfce.org/
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.9.0
