@@ -1,14 +1,14 @@
 diff -ur xfce4-trigger-launcher.orig/configure.ac xfce4-trigger-launcher/configure.ac
---- xfce4-trigger-launcher.orig/configure.ac	2004-03-15 08:36:05.000000000 +0100
-+++ xfce4-trigger-launcher/configure.ac	2004-08-07 02:34:07.541981176 +0200
+--- xfce4-trigger-launcher.orig/configure.ac	2004-08-15 01:06:20.000000000 +0200
++++ xfce4-trigger-launcher/configure.ac	2004-08-16 22:53:55.650974760 +0200
 @@ -31,8 +31,8 @@
  AC_CHECK_FUNCS([sigaction])
  
  dnl Check for i18n support
--BM_I18N([xfce4-trigger-launcher], [ar az bg ca cs de es eu fa_IR fr hi hu it ja ko
--	 lt ms nl pl pt_BR pt_PT ru sv ta tr uk vi zh_CN zh_TW])
-+BM_I18N([xfce4-trigger-launcher], [ar az bg ca cs de es eu fa fr hi hu it ja ko
-+	 lt ms nl pl pt_BR pt ru sv ta tr uk vi zh_CN zh_TW])
+-BM_I18N([xfce4-trigger-launcher], [ar az bg ca cs de es eu fa_IR fr he hi
+-				   hu it ja ko lt ms nl pl pt_BR pt_PT ru
++BM_I18N([xfce4-trigger-launcher], [ar az bg ca cs de es eu fa fr he hi
++				   hu it ja ko lt ms nl pl pt_BR pt ru
+ 				   sv ta tr uk vi zh_CN zh_TW])
  
  dnl configure the panel plugin
- XFCE_PANEL_PLUGIN([XFCE4_PANEL], [4.0.0])
