@@ -9,8 +9,8 @@ Source0:	http://www.xfce.org/archive/xfce4-rc3/src/%{name}-%{version}.tar.gz
 # Source0-md5:	14770b2c1f718e1c22785a0e0ee06c39
 URL:		http://www.xfce.org/
 BuildRequires:	pkgconfig >= 0.9.0
-BuildRequires:	xfce4-panel-devel >= 3.99.2
-Requires:	xfce4-panel >= 3.99.2
+BuildRequires:	xfce4-panel-devel >= 3.99.3
+Requires:	xfce4-panel >= 3.99.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
