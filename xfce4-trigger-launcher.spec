@@ -24,7 +24,7 @@ Trigger launcher - dwustanowy prze³±cznik.
 %setup -q
 
 %build
-cp -f /usr/share/automake/config.sub
+cp -f /usr/share/automake/config.sub .
 %configure
 
 %{__make}
