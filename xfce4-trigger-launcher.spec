@@ -14,9 +14,7 @@ BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 0.9.0
-BuildRequires:	startup-notification-devel
 BuildRequires:	xfce4-panel-devel >= %{version}
-Requires:	startup-notification
 Requires:	xfce4-panel >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
