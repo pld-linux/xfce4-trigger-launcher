@@ -6,11 +6,11 @@ Release:	1
 License:	BSD
 Group:		X11/Applications
 Source0:	http://www.xfce.org/archive/xfce-%{version}/src/%{name}-%{version}.tar.gz
-# Source0-md5:	14770b2c1f718e1c22785a0e0ee06c39
+# Source0-md5:	a890018128affcb6dd734cbd9594a4c4
 URL:		http://www.xfce.org/
 BuildRequires:	pkgconfig >= 0.9.0
-BuildRequires:	xfce4-panel-devel >= %{version
-Requires:	xfce4-panel >= %{version
+BuildRequires:	xfce4-panel-devel >= %{version}
+Requires:	xfce4-panel >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
