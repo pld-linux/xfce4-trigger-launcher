@@ -1,21 +1,20 @@
 Summary:	Trigger launcher - a launcher with two states
 Summary(pl):	Trigger launcher - dwustanowy prze³±cznik
 Name:		xfce4-trigger-launcher
-Version:	4.0.6
+Version:	4.1.99.1
 Release:	1
 License:	BSD
 Group:		X11/Applications
-#Source0:	ftp://ftp.berlios.de/pub/xfce-goodies/%{version}/%{name}-%{version}.tar.gz
-Source0:	http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-%{version}/src/%{name}-%{version}.tar.gz
-# Source0-md5:	2a2abafa2a5990009cfffdc6d608b39e
+Source0:	ftp://ftp.berlios.de/pub/xfce-goodies/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	a4c0070193c9f037fdb639d1d21f2c65
 Patch0:		%{name}-locale-names.patch
 URL:		http://www.xfce.org/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	libtool
 BuildRequires:	pkgconfig >= 0.9.0
-BuildRequires:	xfce4-panel-devel >= %{version}
-Requires:	xfce4-panel >= %{version}
+BuildRequires:	xfce4-panel-devel >= 4.1.0
+Requires:	xfce4-panel >= 4.1.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -28,8 +27,6 @@ Trigger launcher - dwustanowy prze³±cznik.
 %setup -q
 %patch0 -p1
 
-mv -f po/{fa_IR,fa}.po
-mv -f po/{no,nb}.po
 mv -f po/{pt_PT,pt}.po
 
 %build
