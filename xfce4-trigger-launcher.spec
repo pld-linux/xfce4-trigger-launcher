@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://www.xfce.org/archive/xfce-%{version}/src/%{name}-%{version}.tar.gz
 # Source0-md5:	fac20eb491536c9ea042cc651db07180
 URL:		http://www.xfce.org/
+BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.9.0
 BuildRequires:	xfce4-panel-devel >= %{version}
 Requires:	xfce4-panel >= %{version}
@@ -23,6 +24,7 @@ Trigger launcher - dwustanowy prze³±cznik.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub
 %configure
 
 %{__make}
