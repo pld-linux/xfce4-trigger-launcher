@@ -9,7 +9,7 @@ Release:	0.%{_snap}
 License:	BSD
 Group:		X11/Applications
 Source0:	http://ep09.pld-linux.org/~havner/xfce4/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	2a2abafa2a5990009cfffdc6d608b39e
+# Source0-md5:	33d900782508c48551ca602f554470fa
 Patch0:		%{name}-locale-names.patch
 URL:		http://www.xfce.org/
 BuildRequires:	autoconf >= 2.50
