@@ -6,7 +6,7 @@ Release:	1
 License:	BSD
 Group:		X11/Applications
 #Source0:	ftp://ftp.berlios.de/pub/xfce-goodies/%{version}/%{name}-%{version}.tar.gz
-Source0:	http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/%{version}/src/%{name}-%{version}.tar.gz
+Source0:	http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-%{version}/src/%{name}-%{version}.tar.gz
 # Source0-md5:	01812b93a4f072eec89f03d8dd2c20f8
 URL:		http://www.xfce.org/
 BuildRequires:	automake
