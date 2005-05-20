@@ -1,11 +1,12 @@
---- xfce4-trigger-launcher-4.2.1/configure.ac	2005-03-12 15:19:30.000000000 +0100
-+++ fix/xfce4-trigger-launcher-4.2.1/configure.ac	2005-03-16 04:21:52.925382848 +0100
-@@ -34,7 +34,7 @@
- dnl Check for i18n support
- BM_I18N([xfce4-trigger-launcher], [ar az be bg ca cs da de en_GB es es_MX
-                                    et eu fa fi fr gu he hi hu it ja ko lt
--				   ms nl pa pl pt_BR pt_PT ro ru sv sk ta
-+				   ms nl pa pl pt_BR pt ro ru sv sk ta
- 				   tr uk vi zh_CN zh_TW])
+diff -urN xfce4-trigger-launcher-4.2.2/configure.ac fix/xfce4-trigger-launcher-4.2.2/configure.ac
+--- xfce4-trigger-launcher-4.2.2/configure.ac	2005-05-15 10:24:09.000000000 +0200
++++ fix/xfce4-trigger-launcher-4.2.2/configure.ac	2005-05-20 18:52:52.000000000 +0200
+@@ -35,7 +35,7 @@
+ BM_I18N([xfce4-trigger-launcher], [ar az be bg bn_IN ca cs da de el
+                                    en_GB es es_MX et eu fa fi fr gu he
+ 				   hi hu it ja ko lt mr ms nl pa pl pt_BR
+-				   pt_PT ro ru sv sk ta tr uk vi zh_CN zh_TW])
++				   pt ro ru sv sk ta tr uk vi zh_CN zh_TW])
  
  dnl configure the panel plugin
+ XFCE_PANEL_PLUGIN([XFCE4_PANEL], [4.2.0])
