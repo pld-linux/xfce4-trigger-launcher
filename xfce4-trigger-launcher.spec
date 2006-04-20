@@ -5,7 +5,7 @@ Version:	4.2.2
 Release:	1
 License:	BSD
 Group:		X11/Applications
-Source0:        http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-%{version}/src/%{name}-%{version}.tar.gz
+Source0:	http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-%{version}/src/%{name}-%{version}.tar.gz
 # Source0-md5:	1cab5f643c86b0ad7cc6be4d6e88f7ec
 Patch0:		%{name}-locale-names.patch
 URL:		http://www.xfce.org/
