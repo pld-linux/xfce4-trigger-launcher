@@ -1,5 +1,5 @@
 Summary:	Trigger launcher - a launcher with two states
-Summary(pl.UTF-8):   Trigger launcher - dwustanowy przełącznik
+Summary(pl.UTF-8):	Trigger launcher - dwustanowy przełącznik
 Name:		xfce4-trigger-launcher
 Version:	4.2.4.1
 Release:	1
